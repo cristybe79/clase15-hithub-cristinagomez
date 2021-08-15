@@ -98,29 +98,59 @@ body {
   color: #7e8083;
   background-color: #252a2e; }
 
-.grid {
+.indexMayor {
   width: 99vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0rem; }
-  .grid .gridCaja {
+  .indexMayor .indexCaja {
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     height: 60vh; }
-    .grid .gridCaja .sing--sing1 {
+    .indexMayor .indexCaja .sing--sing1 {
       color: aliceblue; }
-    .grid .gridCaja .sing--sing2 {
+    @media (max-width: 516px) {
+      .indexMayor .indexCaja {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 0rem; } }
+    .indexMayor .indexCaja .sing--sing2 {
       color: cornflowerblue; }
-    .grid .gridCaja .sing--sing3 {
+    @media (max-width: 516px) {
+      .indexMayor .indexCaja {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 0rem; } }
+    .indexMayor .indexCaja .sing--sing3 {
       color: violet; }
-    .grid .gridCaja .sing--sing4 {
+    @media (max-width: 516px) {
+      .indexMayor .indexCaja {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 0rem; } }
+    .indexMayor .indexCaja .sing--sing4 {
       color: lime; }
-    .grid .gridCaja .sing--sing5 {
+    @media (max-width: 516px) {
+      .indexMayor .indexCaja {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 0rem; } }
+    .indexMayor .indexCaja .sing--sing5 {
       color: aqua; }
-  .grid .imgf1 {
+    @media (max-width: 516px) {
+      .indexMayor .indexCaja {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 0rem; } }
+  .indexMayor .imgf1 {
     background-image: url("../img/kodaline2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,8 +182,7 @@ body {
   width: 100vw -70vw;
   height: 60vh;
   overflow: hidden;
-  box-shadow: 10px 10px 10px grey;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #131212), url(/img/concierto3red.jpg);
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #131212), url("../img/concierto3red.jpg");
   background-size: cover; }
   @media (max-width: 516px) {
     .texto1 {

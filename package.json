@@ -1,7 +1,6 @@
 {
   "name": "clase11-sass",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "node-sass": "^6.0.1",
@@ -9,9 +8,19 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css", "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristybe79/clase15-hithub-cristinagomez.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cristybe79/clase15-hithub-cristinagomez/issues"
+  },
+  "homepage": "https://github.com/cristybe79/clase15-hithub-cristinagomez#readme",
+  "description": ""
 }
