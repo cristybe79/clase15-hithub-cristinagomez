@@ -276,11 +276,13 @@ body {
 .galeria {
   margin: 5rem 0 0 25rem;
   max-width: 45vw;
-  max-height: 60vh;
+  max-height: 65  vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center; }
+  .galeria .carru {
+    margin-bottom: 25px; }
 
 .historiaDeLaBanda {
   margin: 5vh;

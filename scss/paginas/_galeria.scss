@@ -1,9 +1,11 @@
 .galeria {
   margin: 5rem 0 0 25rem;
   max-width: 45vw;
-  max-height: 60vh;
+  max-height: 65  vh;
   @include flex(flex,column,center,center);
-
+.carru{
+  margin-bottom: 25px;
+}
 
 
 }
