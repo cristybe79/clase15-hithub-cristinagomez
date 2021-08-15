@@ -273,13 +273,14 @@ body {
 .mainEventos {
   height: 130vh; }
 
-.carousel {
-  margin: 5rem 0 0 20rem;
-  max-width: 80vw;
-  height: 75vh;
+.galeria {
+  margin: 5rem 0 0 25rem;
+  max-width: 45vw;
+  max-height: 60vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  text-align: center; }
 
 .historiaDeLaBanda {
   margin: 5vh;

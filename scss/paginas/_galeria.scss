@@ -1,8 +1,9 @@
-.carousel {
-  margin: 5rem 0 0 20rem;
-  max-width: 80vw;
-  height: 75vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.galeria {
+  margin: 5rem 0 0 25rem;
+  max-width: 45vw;
+  max-height: 60vh;
+  @include flex(flex,column,center,center);
+
+
+
 }
