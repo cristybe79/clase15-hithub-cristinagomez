@@ -1,7 +1,7 @@
 .historiaDeLaBanda {
   margin: 5vh;
-  padding-left: 15vh;
-  padding-right: 20vh;
+  padding-left: 10vh;
+  padding-right: 10vh;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: normal;
   text-align: justify;
@@ -17,4 +17,22 @@
     width: 30vw;
     float: right;
   }
+    @media screen and(max-width:$desktop) {
+  margin: 3vh;
+  padding-left: 7vh;
+  padding-right: 7vh;
+
+    }
+  @media screen and(max-width:$tablet) {
+  margin: 2vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+
+    }
+      @media screen and(max-width:$celular) {
+  margin: 1vh;
+  padding-left: 3vh;
+  padding-right: 3vh;
+
+    }
 }
