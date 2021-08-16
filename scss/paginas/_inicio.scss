@@ -5,7 +5,9 @@
 .indexMayor {
   width: 99vw;
   @include grid(grid,1fr 1fr,1fr, 0rem);
-
+    @media (max-width:$tablet){
+      grid-template-columns: 1fr;
+    }
   .indexCaja {
     @include flex(flex, column,center, center);
     height: 60vh;
@@ -13,9 +15,7 @@
       .sing--#{$texto-sing} {
         color: $color;
       }
-    @media (max-width:$celular){
-      @include grid(grid, 1fr , 1fr, 0rem);
-    }
+
     }
   }
   .imgf1 {

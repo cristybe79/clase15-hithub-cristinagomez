@@ -62,11 +62,7 @@ body {
 
 /* barra de navegacion */
 .gridHeader {
-  width: 99vw;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 20% 25%;
-  grid-column-gap: 15px; }
+  width: 99vw; }
 
 .barraNavegacion :hover {
   background-color: cadetblue;
@@ -98,6 +94,9 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0rem; }
+  @media (max-width: 765px) {
+    .indexMayor {
+      grid-template-columns: 1fr; } }
   .indexMayor .indexCaja {
     display: flex;
     flex-direction: column;
@@ -106,44 +105,14 @@ body {
     height: 60vh; }
     .indexMayor .indexCaja .sing--sing1 {
       color: aliceblue; }
-    @media (max-width: 516px) {
-      .indexMayor .indexCaja {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-column-gap: 0rem; } }
     .indexMayor .indexCaja .sing--sing2 {
       color: cornflowerblue; }
-    @media (max-width: 516px) {
-      .indexMayor .indexCaja {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-column-gap: 0rem; } }
     .indexMayor .indexCaja .sing--sing3 {
       color: violet; }
-    @media (max-width: 516px) {
-      .indexMayor .indexCaja {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-column-gap: 0rem; } }
     .indexMayor .indexCaja .sing--sing4 {
       color: lime; }
-    @media (max-width: 516px) {
-      .indexMayor .indexCaja {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-column-gap: 0rem; } }
     .indexMayor .indexCaja .sing--sing5 {
       color: aqua; }
-    @media (max-width: 516px) {
-      .indexMayor .indexCaja {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-column-gap: 0rem; } }
   .indexMayor .imgf1 {
     background-image: url("../img/kodaline1.jpg");
     background-repeat: no-repeat;
