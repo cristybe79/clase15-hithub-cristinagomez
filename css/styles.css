@@ -68,20 +68,14 @@ body {
   grid-template-rows: 20% 25%;
   grid-column-gap: 15px; }
 
-.barraNavegacion {
-  height: 5vh;
-  width: 50vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  text-align: center; }
-  .barraNavegacion :hover {
-    background-color: cadetblue;
-    transform: scale(1px); }
-  .barraNavegacion .navDes1 {
-    color: cornflowerblue;
-    background-color: black;
-    text-shadow: 2px 2px 5px #5F9EA0; }
+.barraNavegacion :hover {
+  background-color: cadetblue;
+  transform: scale(1px); }
+
+.barraNavegacion .navDes1 {
+  color: cornflowerblue;
+  background-color: black;
+  text-shadow: 2px 2px 5px #5F9EA0; }
 
 .fijo {
   width: 99vw;
