@@ -1,19 +1,22 @@
 .play1 {
-  width: 100vw;
+  width: 98vw;
   height: 60vh;
-  margin: 10px 10px 10px 10px;
+  margin: 2px 2px 2px 2px;
   padding: 10px;
   display: flex;
   flex-direction: row;
-  .letraPlaylist {
+
+
+
+}
+    .playA iframe{
+    width: 45vw;
+    height: 50vh;
+    margin-right: 20px;
+  }
+    .letraPlaylist {
     padding: 10px;
     line-height: 1.3rem;
     color: aliceblue;
     font-family: "Noto Sans", sans-serif;
   }
-  .playA {
-    width: 50%;
-    height: 50%;
-    margin: 35px;
-  }
-}

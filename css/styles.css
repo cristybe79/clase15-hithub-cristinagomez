@@ -116,7 +116,7 @@ body {
       .indexMayor .indexCaja {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-column-gap: 0rem; } }
     .indexMayor .indexCaja .sing--sing2 {
       color: cornflowerblue; }
@@ -124,7 +124,7 @@ body {
       .indexMayor .indexCaja {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-column-gap: 0rem; } }
     .indexMayor .indexCaja .sing--sing3 {
       color: violet; }
@@ -132,7 +132,7 @@ body {
       .indexMayor .indexCaja {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-column-gap: 0rem; } }
     .indexMayor .indexCaja .sing--sing4 {
       color: lime; }
@@ -140,7 +140,7 @@ body {
       .indexMayor .indexCaja {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-column-gap: 0rem; } }
     .indexMayor .indexCaja .sing--sing5 {
       color: aqua; }
@@ -148,10 +148,10 @@ body {
       .indexMayor .indexCaja {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
         grid-column-gap: 0rem; } }
   .indexMayor .imgf1 {
-    background-image: url("../img/kodaline2.jpg");
+    background-image: url("../img/kodaline1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -179,9 +179,9 @@ body {
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+  overflow: hidden;
   width: 100vw -70vw;
   height: 60vh;
-  overflow: hidden;
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #131212), url("../img/concierto3red.jpg");
   background-size: cover; }
   @media (max-width: 516px) {
@@ -334,18 +334,20 @@ body {
     float: right; }
 
 .play1 {
-  width: 100vw;
+  width: 98vw;
   height: 60vh;
-  margin: 10px 10px 10px 10px;
+  margin: 2px 2px 2px 2px;
   padding: 10px;
   display: flex;
   flex-direction: row; }
-  .play1 .letraPlaylist {
-    padding: 10px;
-    line-height: 1.3rem;
-    color: aliceblue;
-    font-family: "Noto Sans", sans-serif; }
-  .play1 .playA {
-    width: 50%;
-    height: 50%;
-    margin: 35px; }
+
+.playA iframe {
+  width: 45vw;
+  height: 50vh;
+  margin-right: 20px; }
+
+.letraPlaylist {
+  padding: 10px;
+  line-height: 1.3rem;
+  color: aliceblue;
+  font-family: "Noto Sans", sans-serif; }

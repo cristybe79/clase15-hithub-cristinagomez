@@ -4,24 +4,22 @@
 }
 .indexMayor {
   width: 99vw;
-  @include grid(grid, 1fr 1fr, 1fr, 0rem);
+  @include grid(grid,1fr 1fr,1fr, 0rem);
 
   .indexCaja {
     @include flex(flex, column,center, center);
     height: 60vh;
-
     @each $texto-sing, $color in $singsColor {
       .sing--#{$texto-sing} {
         color: $color;
       }
     @media (max-width:$celular){
-      @include grid(grid, 1fr, 1fr 1fr, 0rem);
+      @include grid(grid, 1fr , 1fr, 0rem);
     }
     }
   }
   .imgf1 {
-
-    background-image: url("../img/kodaline2.jpg");
+    background-image: url("../img/kodaline1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,9 +50,9 @@
 }
 .texto1 {
   @include flex(flex, column, space-around, center);
-  width: $wt -70vw;
-  height: 60vh;
   overflow: hidden;
+  width:$wt -70vw;
+  height: 60vh;
   background-image: linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.52),
@@ -105,6 +103,7 @@
   }
 
 }
+
 .gridError{
   width:99vw;
   height: 70vh;
