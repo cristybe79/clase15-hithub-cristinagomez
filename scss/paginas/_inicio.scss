@@ -1,7 +1,7 @@
 .indexMayor {
   width: 99vw;
   @include grid(grid, 1fr 1fr, 1fr, 0rem);
-  @media screen and(max-width:$tablet) {
+  @media (max-width:$tablet) {
     grid-template-columns: 1fr;
   }
   .indexCaja {

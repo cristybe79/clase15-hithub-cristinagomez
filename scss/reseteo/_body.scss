@@ -17,9 +17,6 @@ body {
     background-color: $colorUno;
   }
   @media (max-width: $celular) {
-    .grid {
-      @include grid(grid, 1fr, 1fr, 1rem);
-    }
     background-color: $colorCinco;
   }
   @media (max-width: 350px) {

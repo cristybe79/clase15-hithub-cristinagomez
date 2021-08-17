@@ -5,7 +5,8 @@
 .albums {
   padding: 7vh;
   @include flex(flex, row, flex-start, flex-start);
-  @media screen and(max-width:$tablet) {
+  @media (max-width:$tablet) {
+            max-width: 10vw;
   }
   .fotoAlbums {
     box-shadow: 10px 10px 10px grey;
@@ -15,14 +16,14 @@
     padding: 10px;
     img {
       max-width: 25vw;
-      @media screen and(max-width:$desktop) {
-        max-width: 37vw;
+      @media (max-width:$desktop) {
+        max-width: 20vw;
       }
-      @media screen and(max-width:$tablet) {
-        max-width: 35vw;
+      @media (max-width:$tablet) {
+        max-width: 10vw;
       }
-      @media screen and(max-width:$celular) {
-        max-width: 25vw;
+      @media (max-width:$celular) {
+        max-width: 10vw;
       }
     }
   }
