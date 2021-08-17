@@ -1,4 +1,4 @@
-.paginaContacto{
+.paginaContacto {
   max-height: 100vh;
 
   background-image: linear-gradient(
@@ -12,7 +12,7 @@
 }
 .contacto {
   border: $colorTres solid;
-  max-width:50vh ;
+  max-width: 50vh;
   margin-top: 5vh;
   margin-left: 33%;
   background-color: aliceblue;
@@ -21,10 +21,9 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: end;
   @media screen and(max-width:$tablet) {
-
-        height: 40vh;
-      }
-        @media screen and(max-width:$celular) {
-        height: 30vh;
-      }
+    height: 40vh;
+  }
+  @media screen and(max-width:$celular) {
+    height: 30vh;
+  }
 }

@@ -1,70 +1,52 @@
 .discografia {
-
-  @include flex(flex,column,flex-start,flex-start);
+  @include flex(flex, column, flex-start, flex-start);
   flex-wrap: wrap;
-
-  }
-.albumsMayor{
-  @include grid(grid,1fr 1fr,1fr 1fr 1fr,0rem);
-  margin-left: 5vh;
-  margin-top: 2vh;
-    @media screen and(max-width:$tablet) {
-        flex-direction: column;
-      }
 }
-  .albums {
+.albums {
   padding: 7vh;
-    @include flex(flex,row,flex-start,flex-start);
-    @media screen and(max-width:$tablet) {
-
-      }
-    .fotoAlbums{
-
-              box-shadow: 10px 10px 10px grey;
-              border-radius: 5px;
-              width: 30vw;
-              height: 45vh;
-              padding: 10px;
-  img {
-    max-width: 25vw;
-    @media screen and(max-width:$desktop) {
-    max-width: 37vw;
-
-    }
+  @include flex(flex, row, flex-start, flex-start);
   @media screen and(max-width:$tablet) {
-    max-width: 35vw;
-
-    }
+  }
+  .fotoAlbums {
+    box-shadow: 10px 10px 10px grey;
+    border-radius: 5px;
+    width: 30vw;
+    height: 45vh;
+    padding: 10px;
+    img {
+      max-width: 25vw;
+      @media screen and(max-width:$desktop) {
+        max-width: 37vw;
+      }
+      @media screen and(max-width:$tablet) {
+        max-width: 35vw;
+      }
       @media screen and(max-width:$celular) {
-    max-width: 25vw;
-
-    }
-    }
+        max-width: 25vw;
+      }
     }
   }
-  .disco {
-    margin-left: 30px;
-    @include flex(flex,column,flex-start,flex-start);
-    // display:none;
-    // &:hover {
-    //   display:block ;
-    // }
-    flex-wrap: wrap;
-    overflow: hidden;
-    }
+}
+.disco {
+  margin-left: 30px;
+  @include flex(flex, column, flex-start, flex-start);
+  // display:none;
+  // &:hover {
+  //   display:block ;
+  // }
+  flex-wrap: wrap;
+  overflow: hidden;
+}
 
-    .disco1 {
-
-      color: $colorUno;
-      font-family: "Noto Sans", sans-serif;
-          @media screen and(max-width: $celular) {
-      font-size: $textSize - 0.2;
-      line-height: 1rem;
-    }
-    }
-    .listaMusica {
-    @extend %fontUno;
-      color: aliceblue;
-    }
-
-
+.disco1 {
+  color: $colorUno;
+  font-family: "Noto Sans", sans-serif;
+  @media screen and(max-width: $celular) {
+    font-size: $textSize - 0.2;
+    line-height: 1rem;
+  }
+}
+.listaMusica {
+  @extend %fontUno;
+  color: aliceblue;
+}

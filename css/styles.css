@@ -54,6 +54,11 @@ body {
   100% {
     opacity: 1; } }
 
+.fPage {
+  padding-left: 20px;
+  color: #7e8083;
+  background-color: #252a2e; }
+
 .fijoIndex {
   width: 99vw;
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.945), rgba(19, 18, 18, 0.205)), url("../img/irlanda.jpg");
@@ -83,10 +88,6 @@ body {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat; }
-
-.fPage {
-  color: #7e8083;
-  background-color: #252a2e; }
 
 .indexMayor {
   width: 99vw;
@@ -236,17 +237,6 @@ body {
   text-align: flex-start;
   flex-wrap: wrap; }
 
-.albumsMayor {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-column-gap: 0rem;
-  margin-left: 5vh;
-  margin-top: 2vh; }
-  @media screen and (max-width: 765px) {
-    .albumsMayor {
-      flex-direction: column; } }
-
 .albums {
   padding: 7vh;
   display: flex;
@@ -291,25 +281,36 @@ body {
 .listaMusica {
   color: aliceblue; }
 
-.mainEventos {
-  margin-top: 10px;
-  height: 130vh; }
+.mainEventos .eventoTitulo {
+  margin: 20px 0px 10px 10vw;
+  padding-left: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0rem;
+  background: #516d83;
+  background: linear-gradient(270deg, #516d83 35%, #2f3637 100%);
+  max-width: 65vw;
+  border-radius: 0px 30px;
+  color: cornflowerblue; }
 
-.eventosMayor {
-  margin-left: 20vh;
-  max-width: 70vw;
+.mainEventos .eventosMayor {
+  margin: 10px 0px 10px 10vw;
+  margin-top: 3vh;
+  max-width: 65vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0rem;
-  background-color: #5F9EA0;
-  padding: 10vh; }
-
-.eveHij {
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  border-left: 1px dash black; }
+  background: linear-gradient(90deg, #55c1c4 0%, cornflowerblue 50%, #2d46cf 100%);
+  border-radius: 30px 0px; }
+  .mainEventos .eventosMayor .eveHij {
+    padding: 2rem;
+    font-size: 2rem;
+    align-content: center;
+    justify-content: center;
+    border-left: dash 1px black;
+    overflow: hidden; }
 
 .galeria .carru {
   margin: 5rem 0 0 25rem;
