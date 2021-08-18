@@ -1,8 +1,9 @@
 .indexMayor {
   width: 99vw;
   @include grid(grid, 1fr 1fr, 1fr, 0rem);
-  @media (max-width:$tablet) {
-    grid-template-columns: 1fr;
+  @media screen and(max-width:$tablet) {
+    grid-column: 1;
+    @include flex(flex, row, center, center);
   }
   .indexCaja {
     @include flex(flex, column, center, center);
@@ -12,37 +13,32 @@
         color: $color;
       }
     }
+  @media screen and(max-width:$desktop) {
+
+    background-color: orange;
   }
-  .imgf1 {
+  @media screen and(max-width:$tablet) {
+    background-color: $colorUno;
+  }
+  @media (max-width: $celular) {
+    background-color: greenyellow;
+  }
+  @media (max-width: 350px) {
+    background-color: $colorSeis;
+  }
+  }
+
+}
+      .imgf1 {
     background-image: url("../img/kodaline1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    animation: imgf2 4s infinite;
+
   }
-  @keyframes imgf2 {
-    0% {
-      left: 0px;
-      top: 0px;
-    }
-    25% {
-      left: 20px;
-      top: 0px;
-    }
-    50% {
-      left: 20px;
-      top: 20px;
-    }
-    75% {
-      left: 0px;
-      top: 20px;
-    }
-    100% {
-      left: 0px;
-      top: 0px;
-    }
-  }
-}
+
+  
+
 .texto1 {
   @include flex(flex, column, space-around, center);
   overflow: hidden;

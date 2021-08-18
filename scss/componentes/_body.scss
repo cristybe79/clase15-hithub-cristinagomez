@@ -17,7 +17,7 @@ body {
     background-color: $colorUno;
   }
   @media (max-width: $celular) {
-    background-color: $colorCinco;
+    background-color: greenyellow;
   }
   @media (max-width: 350px) {
     background-color: $colorSeis;

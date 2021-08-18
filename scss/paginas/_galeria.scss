@@ -1,11 +1,9 @@
-.galeria {
 
-.carru{
+.carousel {
   margin: 5rem 0 0 25rem;
-  max-width: 45vw;
-  max-height: 65vh;
-  margin-bottom: 25px;
-}
-
-
+  width: 50vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

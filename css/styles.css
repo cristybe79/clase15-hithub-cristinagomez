@@ -24,7 +24,7 @@ body {
       background-color: #5F9EA0; } }
   @media (max-width: 412px) {
     body {
-      background-color: aqua; } }
+      background-color: greenyellow; } }
   @media (max-width: 350px) {
     body {
       background-color: cornflowerblue; } }
@@ -90,9 +90,13 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0rem; }
-  @media (max-width: 715px) {
+  @media screen and (max-width: 715px) {
     .indexMayor {
-      grid-template-columns: 1fr; } }
+      grid-column: 1;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      text-align: center; } }
   .indexMayor .indexCaja {
     display: flex;
     flex-direction: column;
@@ -109,29 +113,24 @@ body {
       color: lime; }
     .indexMayor .indexCaja .sing--sing5 {
       color: aqua; }
-  .indexMayor .imgf1 {
-    background-image: url("../img/kodaline1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    animation: imgf2 4s infinite; }
+    @media screen and (max-width: 1024px) {
+      .indexMayor .indexCaja {
+        background-color: orange; } }
+    @media screen and (max-width: 715px) {
+      .indexMayor .indexCaja {
+        background-color: #5F9EA0; } }
+    @media (max-width: 412px) {
+      .indexMayor .indexCaja {
+        background-color: greenyellow; } }
+    @media (max-width: 350px) {
+      .indexMayor .indexCaja {
+        background-color: cornflowerblue; } }
 
-@keyframes imgf2 {
-  0% {
-    left: 0px;
-    top: 0px; }
-  25% {
-    left: 20px;
-    top: 0px; }
-  50% {
-    left: 20px;
-    top: 20px; }
-  75% {
-    left: 0px;
-    top: 20px; }
-  100% {
-    left: 0px;
-    top: 0px; } }
+.imgf1 {
+  background-image: url("../img/kodaline1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 .texto1 {
   display: flex;
@@ -209,8 +208,9 @@ body {
   padding-bottom: 20vh; }
 
 .contacto {
-  border: black solid;
-  max-width: 50vh;
+  border-radius: 10px;
+  border: #7e8083 1px solid;
+  max-width: 65vh;
   margin-top: 5vh;
   margin-left: 33%;
   background-color: aliceblue;
@@ -245,16 +245,16 @@ body {
     box-shadow: 10px 10px 10px grey;
     border-radius: 5px;
     padding: 20px;
-    max-width: 400px; }
+    width: 30vw; }
     @media (max-width: 1024px) {
       .albums .fotoAlbums .fotoAlbums img {
-        max-width: 70px; } }
+        width: 25vw; } }
     @media (max-width: 715px) {
       .albums .fotoAlbums .fotoAlbums img {
-        max-width: 50px; } }
+        width: 20vw; } }
     @media (max-width: 412px) {
       .albums .fotoAlbums .fotoAlbums img {
-        max-width: 30px; } }
+        width: 15vw; } }
 
 .disco {
   margin-left: 30px;
@@ -307,11 +307,13 @@ body {
     border-left: dash 1px black;
     overflow: hidden; }
 
-.galeria .carru {
+.carousel {
   margin: 5rem 0 0 25rem;
-  max-width: 45vw;
-  max-height: 65vh;
-  margin-bottom: 25px; }
+  width: 50vw;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .historiaDeLaBanda {
   margin: 5vh;

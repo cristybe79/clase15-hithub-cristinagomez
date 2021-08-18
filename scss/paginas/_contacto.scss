@@ -11,8 +11,9 @@
   padding-bottom: 20vh;
 }
 .contacto {
-  border: $colorTres solid;
-  max-width: 50vh;
+  border-radius: 10px;
+  border: $colorDos 1px solid;
+  max-width: 65vh;
   margin-top: 5vh;
   margin-left: 33%;
   background-color: aliceblue;
