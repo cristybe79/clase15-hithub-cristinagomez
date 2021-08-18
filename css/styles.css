@@ -19,10 +19,10 @@ body {
   @media screen and (max-width: 1024px) {
     body {
       background-color: black; } }
-  @media screen and (max-width: 765px) {
+  @media screen and (max-width: 715px) {
     body {
       background-color: #5F9EA0; } }
-  @media (max-width: 516px) {
+  @media (max-width: 412px) {
     body {
       background-color: aqua; } }
   @media (max-width: 350px) {
@@ -32,7 +32,7 @@ body {
 /* logo */
 .logo {
   width: 100vw -3vw;
-  height: 10vh;
+  height: 25vh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
@@ -56,7 +56,6 @@ body {
 
 .fijoIndex {
   width: 99vw;
-  height: 10vh;
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.945), rgba(19, 18, 18, 0.205)), url("../img/irlanda.jpg");
   background-size: cover;
   background-repeat: no-repeat; }
@@ -91,7 +90,7 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0rem; }
-  @media (max-width: 765px) {
+  @media (max-width: 715px) {
     .indexMayor {
       grid-template-columns: 1fr; } }
   .indexMayor .indexCaja {
@@ -144,7 +143,7 @@ body {
   height: 60vh;
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #131212), url("../img/concierto3red.jpg");
   background-size: cover; }
-  @media (max-width: 516px) {
+  @media (max-width: 412px) {
     .texto1 {
       margin: 20px 10px 0px 0px;
       text-align: center;
@@ -158,7 +157,7 @@ body {
     height: 20vh;
     font-family: "Noto Sans", sans-serif;
     font-style: italic; }
-    @media screen and (max-width: 516px) {
+    @media screen and (max-width: 412px) {
       .texto1 .letra {
         font-size: 0.8rem;
         line-height: 1rem; } }
@@ -219,10 +218,10 @@ body {
   flex-direction: column;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: end; }
-  @media screen and (max-width: 765px) {
+  @media screen and (max-width: 715px) {
     .contacto {
       height: 40vh; } }
-  @media screen and (max-width: 516px) {
+  @media screen and (max-width: 412px) {
     .contacto {
       height: 30vh; } }
 
@@ -234,28 +233,28 @@ body {
   flex-wrap: wrap; }
 
 .albums {
-  padding: 7vh;
+  padding: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   text-align: flex-start; }
+  @media (max-width: 715px) {
+    .albums {
+      max-width: 10vw; } }
   .albums .fotoAlbums {
     box-shadow: 10px 10px 10px grey;
     border-radius: 5px;
-    width: 30vw;
-    height: 45vh;
-    padding: 10px; }
-    .albums .fotoAlbums img {
-      max-width: 25vw; }
-      @media (max-width: 1024px) {
-        .albums .fotoAlbums img {
-          max-width: 37vw; } }
-      @media (max-width: 765px) {
-        .albums .fotoAlbums img {
-          max-width: 35vw; } }
-      @media (max-width: 516px) {
-        .albums .fotoAlbums img {
-          max-width: 25vw; } }
+    padding: 20px;
+    max-width: 400px; }
+    @media (max-width: 1024px) {
+      .albums .fotoAlbums .fotoAlbums img {
+        max-width: 70px; } }
+    @media (max-width: 715px) {
+      .albums .fotoAlbums .fotoAlbums img {
+        max-width: 50px; } }
+    @media (max-width: 412px) {
+      .albums .fotoAlbums .fotoAlbums img {
+        max-width: 30px; } }
 
 .disco {
   margin-left: 30px;
@@ -269,7 +268,7 @@ body {
 .disco1 {
   color: #5F9EA0;
   font-family: "Noto Sans", sans-serif; }
-  @media screen and (max-width: 516px) {
+  @media screen and (max-width: 412px) {
     .disco1 {
       font-size: 0.8rem;
       line-height: 1rem; } }
@@ -338,12 +337,12 @@ body {
       margin: 3vh;
       padding-left: 7vh;
       padding-right: 7vh; } }
-  @media screen and (max-width: 765px) {
+  @media screen and (max-width: 715px) {
     .historiaDeLaBanda {
       margin: 2vh;
       padding-left: 5vh;
       padding-right: 5vh; } }
-  @media screen and (max-width: 516px) {
+  @media screen and (max-width: 412px) {
     .historiaDeLaBanda {
       margin: 1vh;
       padding-left: 3vh;
