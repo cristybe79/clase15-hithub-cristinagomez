@@ -245,16 +245,19 @@ body {
     box-shadow: 10px 10px 10px grey;
     border-radius: 5px;
     padding: 20px;
-    width: 30vw; }
+    width: 400px; }
     @media (max-width: 1024px) {
       .albums .fotoAlbums .fotoAlbums img {
-        width: 25vw; } }
+        padding: 10px;
+        width: 150px; } }
     @media (max-width: 715px) {
       .albums .fotoAlbums .fotoAlbums img {
-        width: 20vw; } }
+        padding: 7px;
+        width: 100px; } }
     @media (max-width: 412px) {
       .albums .fotoAlbums .fotoAlbums img {
-        width: 15vw; } }
+        padding: 5px;
+        width: 50px; } }
 
 .disco {
   margin-left: 30px;
