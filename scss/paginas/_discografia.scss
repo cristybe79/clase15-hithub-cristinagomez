@@ -1,9 +1,11 @@
 .discografia {
   @include flex(flex, column, flex-start, flex-start);
   flex-wrap: wrap;
+
 }
 .albums {
-  padding: 10vh;
+  margin-left:10vw;
+  padding: 2rem;
   @include flex(flex, row, flex-start, flex-start);
   @media (max-width:$tablet) {
             max-width: 10vw;
@@ -11,21 +13,21 @@
   .fotoAlbums {
     box-shadow: 10px 10px 10px grey;
     border-radius: 5px;
-    padding: 20px;
-    width: 50vw;
+    padding: 15px;
+    width: 400px;
     .fotoAlbums img {
 
       @media (max-width:$desktop) {
         padding: 10px;
-        width: 40vw;
+        width:200px;
       }
       @media (max-width:$tablet) {
-        padding: 7px;
-        width: 30vw;
+                padding: 7px;
+        width:70px;
       }
       @media (max-width:$celular) {
-        padding: 5px;
-        width: 20vw;
+                padding: 5px;
+        width: 50px;
       }
     }
   }

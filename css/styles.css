@@ -233,7 +233,8 @@ body {
   flex-wrap: wrap; }
 
 .albums {
-  padding: 10vh;
+  margin-left: 10vw;
+  padding: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -244,20 +245,20 @@ body {
   .albums .fotoAlbums {
     box-shadow: 10px 10px 10px grey;
     border-radius: 5px;
-    padding: 20px;
-    width: 50vw; }
+    padding: 15px;
+    width: 400px; }
     @media (max-width: 1024px) {
       .albums .fotoAlbums .fotoAlbums img {
         padding: 10px;
-        width: 40vw; } }
+        width: 200px; } }
     @media (max-width: 715px) {
       .albums .fotoAlbums .fotoAlbums img {
         padding: 7px;
-        width: 30vw; } }
+        width: 70px; } }
     @media (max-width: 412px) {
       .albums .fotoAlbums .fotoAlbums img {
         padding: 5px;
-        width: 20vw; } }
+        width: 50px; } }
 
 .disco {
   margin-left: 30px;
@@ -315,19 +316,19 @@ body {
 
 .carousel {
   margin: 5rem 0 0 25rem;
-  width: 50vw;
+  width: 45vw;
   display: flex;
   justify-content: center;
   align-items: center; }
   @media (max-width: 1024px) {
     .carousel {
-      margin-left: 15rem; } }
+      margin-left: 10vw; } }
   @media (max-width: 715px) {
     .carousel {
-      margin-left: 10rem; } }
+      margin-left: 7vw; } }
   @media (max-width: 412px) {
     .carousel {
-      margin-left: 10rem; } }
+      margin-left: 2vw; } }
 
 .historiaDeLaBanda {
   margin: 5vh;
