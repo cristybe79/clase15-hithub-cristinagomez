@@ -1,4 +1,4 @@
-.mainGaleria{
+.mainGaleria {
   height: 100vh;
 }
 .carousel {
@@ -8,15 +8,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-        @media (max-width:$desktop) {
-        margin-left: 10vw;
-
-      }
-      @media (max-width:$tablet) {
-        margin-left: 7vw;
-        }
-      @media (max-width:$celular) {
-        margin-left: 2vw;
-
-      }
+  @media (max-width: $desktop) {
+    margin-left: 10vw;
+  }
+  @media (max-width: $tablet) {
+    margin-left: 7vw;
+  }
+  @media (max-width: $celular) {
+    margin-left: 2vw;
+  }
 }

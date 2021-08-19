@@ -13,31 +13,26 @@
         color: $color;
       }
     }
-  @media screen and(max-width:$desktop) {
-
-    background-color: orange;
+    @media screen and(max-width:$desktop) {
+      background-color: orange;
+    }
+    @media screen and(max-width:$tablet) {
+      background-color: $colorUno;
+    }
+    @media (max-width: $celular) {
+      background-color: greenyellow;
+    }
+    @media (max-width: 350px) {
+      background-color: $colorSeis;
+    }
   }
-  @media screen and(max-width:$tablet) {
-    background-color: $colorUno;
-  }
-  @media (max-width: $celular) {
-    background-color: greenyellow;
-  }
-  @media (max-width: 350px) {
-    background-color: $colorSeis;
-  }
-  }
-
 }
-      .imgf1 {
-    background-image: url("../img/kodaline1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-  }
-
-  
+.imgf1 {
+  background-image: url("../img/kodaline1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 .texto1 {
   @include flex(flex, column, space-around, center);

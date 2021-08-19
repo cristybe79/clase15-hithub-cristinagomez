@@ -6,7 +6,7 @@
   text-decoration: none;
 }
 body {
-  width:99vw ;
+  width: 99vw;
 
   background-color: rgb(19, 18, 18);
   @include flex(flex, column, initial, start);
