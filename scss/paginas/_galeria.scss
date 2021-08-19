@@ -1,9 +1,20 @@
-
+.mainGaleria{
+  height: 100vh;
+}
 .carousel {
   margin: 5rem 0 0 25rem;
   width: 50vw;
-  height: 75vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
+        @media (max-width:$desktop) {
+        margin-left: 15rem;
+      }
+      @media (max-width:$tablet) {
+        margin-left: 10rem;
+      }
+      @media (max-width:$celular) {
+        margin-left: 10rem;
+      }
 }

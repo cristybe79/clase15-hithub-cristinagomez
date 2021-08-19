@@ -310,13 +310,24 @@ body {
     border-left: dash 1px black;
     overflow: hidden; }
 
+.mainGaleria {
+  height: 100vh; }
+
 .carousel {
   margin: 5rem 0 0 25rem;
   width: 50vw;
-  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center; }
+  @media (max-width: 1024px) {
+    .carousel {
+      margin-left: 15rem; } }
+  @media (max-width: 715px) {
+    .carousel {
+      margin-left: 10rem; } }
+  @media (max-width: 412px) {
+    .carousel {
+      margin-left: 10rem; } }
 
 .historiaDeLaBanda {
   margin: 5vh;
