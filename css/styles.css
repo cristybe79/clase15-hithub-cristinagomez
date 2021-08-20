@@ -332,6 +332,22 @@ body {
 .galhij:nth-child(8) {
   grid-column-start: span 2; }
 
+@media screen and (max-width: 715px) {
+  .galeriaMayor {
+    grid-template-columns: repeat(3, 1fr); }
+    .galeriaMayor .galhij:nth-child(1) {
+      grid-column-start: span 2; }
+    .galeriaMayor .galhij:nth-child(4) {
+      grid-column-start: span 2;
+      grid-row-start: span 1; }
+    .galeriaMayor .galhij:nth-child(5) {
+      grid-column-start: span 2;
+      grid-row-start: span 1; }
+    .galeriaMayor .galhij:nth-child(8) {
+      grid-column-start: span 2; }
+    .galeriaMayor .galhij:nth-child(13) {
+      grid-column-start: span 2; } }
+
 .historiaDeLaBanda {
   margin: 5vh;
   padding-left: 10vh;

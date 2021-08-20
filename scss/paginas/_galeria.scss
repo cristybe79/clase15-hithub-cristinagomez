@@ -25,3 +25,27 @@
 .galhij:nth-child(8){
   grid-column-start: span 2;
 }
+@media screen and(max-width:$tablet) {
+  .galeriaMayor {
+
+grid-template-columns: repeat(3,1fr);
+.galhij:nth-child(1){
+  grid-column-start: span 2;
+
+}
+.galhij:nth-child(4){
+  grid-column-start: span 2;
+    grid-row-start: span 1;
+}
+.galhij:nth-child(5){
+  grid-column-start: span 2;
+      grid-row-start: span 1;
+}
+.galhij:nth-child(8){
+  grid-column-start: span 2;
+}
+.galhij:nth-child(13){
+  grid-column-start: span 2;
+}
+}
+    }
