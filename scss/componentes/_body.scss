@@ -14,12 +14,12 @@ body {
     background-color: $colorTres;
   }
   @media screen and(max-width:$tablet) {
-    background-color: $colorUno;
+    // background-color: $colorSeis;
   }
   @media (max-width: $celular) {
-    background-color: greenyellow;
+    // background-color: greenyellow;
   }
   @media (max-width: 350px) {
-    background-color: $colorSeis;
+    // background-color: $colorSeis;
   }
 }

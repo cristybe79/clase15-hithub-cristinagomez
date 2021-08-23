@@ -2,18 +2,35 @@
   @include flex(flex, column, flex-start, flex-start);
   flex-wrap: wrap;
 }
-.albums {
+.albumsMay{
+  width: 90%;
+  margin:20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows:1fr;
+}
+.albums{
   margin-left: 10vw;
   padding: 2rem;
-  @include flex(flex, row, flex-start, flex-start);
+  width: 60vw;
+  background-color:grey;
+  @include grid (grid,1fr 1fr,1fr,1rem);
   @media (max-width: $tablet) {
     max-width: 10vw;
+    grid-template-columns: 1fr;
+    color: crimson;
+  }
+    @media (max-width: $celular) {
+    background-color: greenyellow;
+    grid-template-columns: 1fr;
   }
   .fotoAlbums {
     box-shadow: 10px 10px 10px grey;
     border-radius: 5px;
     padding: 15px;
     width: 400px;
+    color: aquamarine;
     .fotoAlbums img {
       @media (max-width: $desktop) {
         padding: 10px;
@@ -43,9 +60,9 @@
   @media screen and(max-width: $celular) {
     font-size: $textSize - 0.2;
     line-height: 1rem;
+    color: crimson;
   }
 }
 .listaMusica {
   @extend %fontUno;
-  color: aliceblue;
 }
