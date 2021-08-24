@@ -230,6 +230,7 @@ body {
   grid-column-gap: 0rem; }
   @media (max-width: 968px) {
     .albums {
+      margin-left: 15vw;
       grid-template-columns: 1fr;
       grid-gap: 1rem; } }
   @media (max-width: 768px) {
@@ -259,7 +260,7 @@ body {
 
 .disco {
   height: auto;
-  padding-left: 10px;
+  padding-left: 0px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -268,7 +269,7 @@ body {
   overflow: hidden; }
   @media (max-width: 968px) {
     .disco {
-      margin-left: 10px; } }
+      margin-left: 5px; } }
   @media (max-width: 768px) {
     .disco {
       margin-left: 5px; } }

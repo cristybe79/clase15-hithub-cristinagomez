@@ -8,6 +8,7 @@
   width: 60vw;
   @include grid (grid,1fr 1fr,1fr,0rem);
     @media (max-width: $desktop) {
+    margin-left: 15vw;
     grid-template-columns: 1fr;
     grid-gap:1rem;
   }
@@ -41,12 +42,12 @@
 }
 .disco {
   height: auto;
-  padding-left: 10px;
+  padding-left: 0px;
   @include flex(flex, column, flex-start, flex-start);
   flex-wrap: wrap;
   overflow: hidden;
     @media (max-width: $desktop) {
-    margin-left: 10px;
+    margin-left: 5px;
   }
   @media (max-width: $tablet) {
     margin-left: 5px
