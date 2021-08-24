@@ -1,34 +1,26 @@
 .discografia {
-  @include flex(flex, column, flex-start, flex-start);
+  // @include flex(flex, column, flex-start, flex-start);
   flex-wrap: wrap;
-}
-.albumsMay{
-  width: 90%;
-  margin:20px auto;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(2,1fr);
-  grid-template-rows:1fr;
 }
 .albums{
   margin-left: 10vw;
   padding: 2rem;
   width: 60vw;
-  background-color:grey;
-  @include grid (grid,1fr 1fr,1fr,1rem);
-  @media (max-width: $tablet) {
-    max-width: 10vw;
+  @include grid (grid,1fr 1fr,1fr,0rem);
+    @media (max-width: $desktop) {
     grid-template-columns: 1fr;
-    color: crimson;
+    grid-gap:1rem;
+  }
+  @media (max-width: $tablet) {
+    grid-template-columns: 1fr;
   }
     @media (max-width: $celular) {
-    background-color: greenyellow;
     grid-template-columns: 1fr;
   }
   .fotoAlbums {
+    background-color: $colorTres;
     box-shadow: 10px 10px 10px grey;
     border-radius: 5px;
-    padding: 15px;
     width: 400px;
     color: aquamarine;
     .fotoAlbums img {
@@ -48,10 +40,20 @@
   }
 }
 .disco {
-  margin-left: 30px;
+  height: auto;
+  padding-left: 10px;
   @include flex(flex, column, flex-start, flex-start);
   flex-wrap: wrap;
   overflow: hidden;
+    @media (max-width: $desktop) {
+    margin-left: 10px;
+  }
+  @media (max-width: $tablet) {
+    margin-left: 5px
+  }
+    @media (max-width: $celular) {
+    margin-left: 5px
+  }
 }
 
 .disco1 {
@@ -60,7 +62,6 @@
   @media screen and(max-width: $celular) {
     font-size: $textSize - 0.2;
     line-height: 1rem;
-    color: crimson;
   }
 }
 .listaMusica {
