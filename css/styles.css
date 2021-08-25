@@ -79,16 +79,17 @@ body {
 .indexMayor {
   width: 99vw;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(45vw, 1fr));
   grid-template-rows: 1fr;
-  grid-column-gap: 0rem; }
-  @media screen and (max-width: 768px) {
+  grid-column-gap: 0 rem; }
+  @media screen and (max-width: 568px) {
     .indexMayor {
-      grid-column: 1;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      text-align: center; } }
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr; } }
+  @media screen and (max-width: 568px) {
+    .indexMayor {
+      grid-column: 1fr;
+      grid-row: 2fr; } }
   .indexMayor .indexCaja {
     display: flex;
     flex-direction: column;
@@ -105,18 +106,6 @@ body {
       color: lime; }
     .indexMayor .indexCaja .sing--sing5 {
       color: aqua; }
-    @media screen and (max-width: 968px) {
-      .indexMayor .indexCaja {
-        background-color: orange; } }
-    @media screen and (max-width: 768px) {
-      .indexMayor .indexCaja {
-        background-color: #5F9EA0; } }
-    @media (max-width: 412px) {
-      .indexMayor .indexCaja {
-        background-color: greenyellow; } }
-    @media (max-width: 350px) {
-      .indexMayor .indexCaja {
-        background-color: cornflowerblue; } }
 
 .imgf1 {
   background-image: url("../img/kodaline1.jpg");
@@ -134,7 +123,7 @@ body {
   height: 60vh;
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #131212), url("../img/concierto3red.jpg");
   background-size: cover; }
-  @media (max-width: 412px) {
+  @media (max-width: 368px) {
     .texto1 {
       margin: 20px 10px 0px 0px;
       text-align: center;
@@ -148,7 +137,7 @@ body {
     height: 20vh;
     font-family: "Noto Sans", sans-serif;
     font-style: italic; }
-    @media screen and (max-width: 412px) {
+    @media screen and (max-width: 368px) {
       .texto1 .letra {
         font-size: 0.8rem;
         line-height: 1rem; } }
@@ -210,10 +199,10 @@ body {
   flex-direction: column;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: end; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 568px) {
     .contacto {
       height: 40vh; } }
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 368px) {
     .contacto {
       height: 30vh; } }
 
@@ -233,10 +222,10 @@ body {
       margin-left: 15vw;
       grid-template-columns: 1fr;
       grid-gap: 1rem; } }
-  @media (max-width: 768px) {
+  @media (max-width: 568px) {
     .albums {
       grid-template-columns: 1fr; } }
-  @media (max-width: 412px) {
+  @media (max-width: 368px) {
     .albums {
       grid-template-columns: 1fr; } }
   .albums .fotoAlbums {
@@ -249,11 +238,11 @@ body {
       .albums .fotoAlbums .fotoAlbums img {
         padding: 10px;
         width: 200px; } }
-    @media (max-width: 768px) {
+    @media (max-width: 568px) {
       .albums .fotoAlbums .fotoAlbums img {
         padding: 7px;
         width: 70px; } }
-    @media (max-width: 412px) {
+    @media (max-width: 368px) {
       .albums .fotoAlbums .fotoAlbums img {
         padding: 5px;
         width: 50px; } }
@@ -270,17 +259,17 @@ body {
   @media (max-width: 968px) {
     .disco {
       margin-left: 5px; } }
-  @media (max-width: 768px) {
+  @media (max-width: 568px) {
     .disco {
       margin-left: 5px; } }
-  @media (max-width: 412px) {
+  @media (max-width: 368px) {
     .disco {
       margin-left: 5px; } }
 
 .disco1 {
   color: #5F9EA0;
   font-family: "Noto Sans", sans-serif; }
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 368px) {
     .disco1 {
       font-size: 0.8rem;
       line-height: 1rem; } }
@@ -337,7 +326,7 @@ body {
 .galhij:nth-child(8) {
   grid-column-start: span 2; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
   .galeriaMayor {
     grid-template-columns: repeat(3, 1fr); }
     .galeriaMayor .galhij:nth-child(1) {
@@ -377,12 +366,12 @@ body {
       margin: 3vh;
       padding-left: 7vh;
       padding-right: 7vh; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 568px) {
     .historiaDeLaBanda {
       margin: 2vh;
       padding-left: 5vh;
       padding-right: 5vh; } }
-  @media screen and (max-width: 412px) {
+  @media screen and (max-width: 368px) {
     .historiaDeLaBanda {
       margin: 1vh;
       padding-left: 3vh;
