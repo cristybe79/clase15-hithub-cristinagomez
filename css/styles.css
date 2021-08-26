@@ -217,14 +217,13 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0rem; }
-  @media (max-width: 968px) {
+  @media (max-width: 368px) {
     .albums {
-      margin-left: 15vw;
+      margin-left: 20vw;
+      padding-left: 3rem;
       grid-template-columns: 1fr;
-      grid-gap: 1rem; } }
-  @media (max-width: 568px) {
-    .albums {
-      grid-template-columns: 1fr; } }
+      grid-gap: 1rem;
+      color: blueviolet; } }
   @media (max-width: 368px) {
     .albums {
       grid-template-columns: 1fr; } }
@@ -240,7 +239,7 @@ body {
         width: 200px; } }
     @media (max-width: 568px) {
       .albums .fotoAlbums .fotoAlbums img {
-        padding: 7px;
+        padding: 10px;
         width: 70px; } }
     @media (max-width: 368px) {
       .albums .fotoAlbums .fotoAlbums img {
@@ -258,13 +257,16 @@ body {
   overflow: hidden; }
   @media (max-width: 968px) {
     .disco {
-      margin-left: 5px; } }
+      margin-left: 5px;
+      color: crimson; } }
   @media (max-width: 568px) {
     .disco {
-      margin-left: 5px; } }
+      margin-left: 5px;
+      color: crimson; } }
   @media (max-width: 368px) {
     .disco {
-      margin-left: 5px; } }
+      margin-left: 5px;
+      color: darkgoldenrod; } }
 
 .disco1 {
   color: #5F9EA0;
@@ -272,7 +274,8 @@ body {
   @media screen and (max-width: 368px) {
     .disco1 {
       font-size: 0.8rem;
-      line-height: 1rem; } }
+      line-height: 1rem;
+      color: crimson; } }
 
 .mainEventos .eventoTitulo {
   margin: 20px 0px 10px 10vw;
