@@ -17,7 +17,7 @@ body {
   flex-direction: column;
   justify-content: initial;
   text-align: start; }
-  @media screen and (max-width: 968px) {
+  @media screen and (max-width: 1240px) {
     body {
       background-color: black; } }
 
@@ -82,11 +82,11 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(45vw, 1fr));
   grid-template-rows: 1fr;
   grid-column-gap: 0 rem; }
-  @media screen and (max-width: 568px) {
+  @media screen and (max-width: 768px) {
     .indexMayor {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr; } }
-  @media screen and (max-width: 568px) {
+  @media screen and (max-width: 768px) {
     .indexMayor {
       grid-column: 1fr;
       grid-row: 2fr; } }
@@ -123,7 +123,7 @@ body {
   height: 60vh;
   background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), #131212), url("../img/concierto3red.jpg");
   background-size: cover; }
-  @media (max-width: 368px) {
+  @media (max-width: 568px) {
     .texto1 {
       margin: 20px 10px 0px 0px;
       text-align: center;
@@ -137,7 +137,7 @@ body {
     height: 20vh;
     font-family: "Noto Sans", sans-serif;
     font-style: italic; }
-    @media screen and (max-width: 368px) {
+    @media screen and (max-width: 568px) {
       .texto1 .letra {
         font-size: 0.8rem;
         line-height: 1rem; } }
@@ -199,10 +199,10 @@ body {
   flex-direction: column;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: end; }
-  @media screen and (max-width: 568px) {
+  @media screen and (max-width: 768px) {
     .contacto {
       height: 40vh; } }
-  @media screen and (max-width: 368px) {
+  @media screen and (max-width: 568px) {
     .contacto {
       height: 30vh; } }
 
@@ -217,14 +217,21 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0rem; }
-  @media (max-width: 368px) {
+  @media (max-width: 768px) {
     .albums {
       margin-left: 20vw;
       padding-left: 3rem;
       grid-template-columns: 1fr;
       grid-gap: 1rem;
       color: blueviolet; } }
-  @media (max-width: 368px) {
+  @media (max-width: 568px) {
+    .albums {
+      margin-left: 20vw;
+      padding-left: 3rem;
+      grid-template-columns: 1fr;
+      grid-gap: 1rem;
+      color: blueviolet; } }
+  @media (max-width: 568px) {
     .albums {
       grid-template-columns: 1fr; } }
   .albums .fotoAlbums {
@@ -233,15 +240,15 @@ body {
     border-radius: 5px;
     width: 400px;
     color: aquamarine; }
-    @media (max-width: 968px) {
+    @media (max-width: 1240px) {
       .albums .fotoAlbums .fotoAlbums img {
         padding: 10px;
         width: 200px; } }
-    @media (max-width: 568px) {
+    @media (max-width: 768px) {
       .albums .fotoAlbums .fotoAlbums img {
         padding: 10px;
         width: 70px; } }
-    @media (max-width: 368px) {
+    @media (max-width: 568px) {
       .albums .fotoAlbums .fotoAlbums img {
         padding: 5px;
         width: 50px; } }
@@ -255,15 +262,15 @@ body {
   text-align: flex-start;
   flex-wrap: wrap;
   overflow: hidden; }
-  @media (max-width: 968px) {
+  @media (max-width: 1240px) {
+    .disco {
+      margin-left: 5px;
+      color: blue; } }
+  @media (max-width: 768px) {
     .disco {
       margin-left: 5px;
       color: crimson; } }
   @media (max-width: 568px) {
-    .disco {
-      margin-left: 5px;
-      color: crimson; } }
-  @media (max-width: 368px) {
     .disco {
       margin-left: 5px;
       color: darkgoldenrod; } }
@@ -271,7 +278,7 @@ body {
 .disco1 {
   color: #5F9EA0;
   font-family: "Noto Sans", sans-serif; }
-  @media screen and (max-width: 368px) {
+  @media screen and (max-width: 568px) {
     .disco1 {
       font-size: 0.8rem;
       line-height: 1rem;
@@ -329,7 +336,7 @@ body {
 .galhij:nth-child(8) {
   grid-column-start: span 2; }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 768px) {
   .galeriaMayor {
     grid-template-columns: repeat(3, 1fr); }
     .galeriaMayor .galhij:nth-child(1) {
@@ -364,17 +371,17 @@ body {
     margin: 5px;
     width: 30vw;
     float: right; }
-  @media screen and (max-width: 968px) {
+  @media screen and (max-width: 1240px) {
     .historiaDeLaBanda {
       margin: 3vh;
       padding-left: 7vh;
       padding-right: 7vh; } }
-  @media screen and (max-width: 568px) {
+  @media screen and (max-width: 768px) {
     .historiaDeLaBanda {
       margin: 2vh;
       padding-left: 5vh;
       padding-right: 5vh; } }
-  @media screen and (max-width: 368px) {
+  @media screen and (max-width: 568px) {
     .historiaDeLaBanda {
       margin: 1vh;
       padding-left: 3vh;
