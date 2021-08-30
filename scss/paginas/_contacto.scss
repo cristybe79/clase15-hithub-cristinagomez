@@ -24,8 +24,12 @@
   @media screen and(max-width:$tablet) {
     height: 40vh;
     margin-left: 25%;
+    border: orangered 1px solid;
+
   }
   @media screen and(max-width:$celular) {
     height: 30vh;
+    margin-left: 25%;
+    border: greenyellow 1px solid;
   }
 }

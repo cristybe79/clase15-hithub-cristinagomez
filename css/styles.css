@@ -202,10 +202,13 @@ body {
   @media screen and (max-width: 768px) {
     .contacto {
       height: 40vh;
-      margin-left: 25%; } }
+      margin-left: 25%;
+      border: orangered 1px solid; } }
   @media screen and (max-width: 568px) {
     .contacto {
-      height: 30vh; } }
+      height: 30vh;
+      margin-left: 25%;
+      border: greenyellow 1px solid; } }
 
 .discografia {
   flex-wrap: wrap; }
