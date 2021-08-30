@@ -7,19 +7,18 @@
   padding: 2rem;
   width: 60vw;
   @include grid (grid,1fr 1fr,1fr,0rem);
-      @media (max-width: $tablet) {
+    @media (max-width: $tablet) {
     margin-left: 20vw;
     padding-left: 3rem;
     grid-template-columns: 1fr;
     grid-gap:1rem;
-    color: blue;
+    background-color: $colorTres;
       }
     @media (max-width: $celular) {
-    margin-left: 20vw;
+    margin-left: 25vw;
     padding-left: 3rem;
     grid-template-columns: 1fr;
     grid-gap:1rem;
-    color: blueviolet;
   }
 
     @media (max-width: $celular) {
@@ -54,16 +53,15 @@
   flex-wrap: wrap;
   overflow: hidden;
     @media (max-width: $desktop) {
-    margin-left: 5px;
-    color: blue;
+    flex-direction: rows;
+    padding-left: 10px;
   }
   @media (max-width: $tablet) {
     margin-left: 5px;
-        color: crimson;
+
   }
     @media (max-width: $celular) {
     margin-left: 5px;
-    color: darkgoldenrod;
   }
 }
 
@@ -73,7 +71,7 @@
   @media screen and(max-width: $celular) {
     font-size: $textSize - 0.2;
     line-height: 1rem;
-            color: crimson;
+    color: crimson;
   }
 }
 .listaMusica {

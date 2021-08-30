@@ -190,7 +190,7 @@ body {
 
 .contacto {
   border-radius: 10px;
-  border: #7e8083 1px solid;
+  border: black 1px solid;
   max-width: 65vh;
   margin-top: 5vh;
   margin-left: 33%;
@@ -201,7 +201,8 @@ body {
   justify-content: end; }
   @media screen and (max-width: 768px) {
     .contacto {
-      height: 40vh; } }
+      height: 40vh;
+      margin-left: 25%; } }
   @media screen and (max-width: 568px) {
     .contacto {
       height: 30vh; } }
@@ -223,14 +224,13 @@ body {
       padding-left: 3rem;
       grid-template-columns: 1fr;
       grid-gap: 1rem;
-      color: blueviolet; } }
+      background-color: black; } }
   @media (max-width: 568px) {
     .albums {
-      margin-left: 20vw;
+      margin-left: 25vw;
       padding-left: 3rem;
       grid-template-columns: 1fr;
-      grid-gap: 1rem;
-      color: blueviolet; } }
+      grid-gap: 1rem; } }
   @media (max-width: 568px) {
     .albums {
       grid-template-columns: 1fr; } }
@@ -264,16 +264,14 @@ body {
   overflow: hidden; }
   @media (max-width: 1240px) {
     .disco {
-      margin-left: 5px;
-      color: blue; } }
+      flex-direction: rows;
+      padding-left: 10px; } }
   @media (max-width: 768px) {
     .disco {
-      margin-left: 5px;
-      color: crimson; } }
+      margin-left: 5px; } }
   @media (max-width: 568px) {
     .disco {
-      margin-left: 5px;
-      color: darkgoldenrod; } }
+      margin-left: 5px; } }
 
 .disco1 {
   color: #5F9EA0;
