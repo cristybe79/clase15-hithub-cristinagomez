@@ -21,6 +21,12 @@
   flex-direction: column;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: end;
+    @media screen and(max-width:$desktop) {
+    height: 40vh;
+    margin-left: 25%;
+    border: blueviolet 1px solid;
+
+  }
   @media screen and(max-width:$tablet) {
     height: 40vh;
     margin-left: 25%;
