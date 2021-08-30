@@ -22,8 +22,9 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   justify-content: end;
     @media screen and(max-width:$desktop) {
-    margin-left: 20%;
+    margin-left: 15%;
     border: blueviolet 1px solid;
+    max-width: 60vh;
 
   }
   @media screen and(max-width:$tablet) {

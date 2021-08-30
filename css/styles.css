@@ -82,7 +82,7 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(45vw, 1fr));
   grid-template-rows: 1fr;
   grid-column-gap: 0 rem; }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1240px) {
     .indexMayor {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr; } }
@@ -201,8 +201,9 @@ body {
   justify-content: end; }
   @media screen and (max-width: 1240px) {
     .contacto {
-      margin-left: 20%;
-      border: blueviolet 1px solid; } }
+      margin-left: 15%;
+      border: blueviolet 1px solid;
+      max-width: 60vh; } }
   @media screen and (max-width: 768px) {
     .contacto {
       margin-left: 20%;

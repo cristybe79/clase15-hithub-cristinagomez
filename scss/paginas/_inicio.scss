@@ -1,7 +1,7 @@
 .indexMayor {
   width: 99vw;
   @include grid(grid, repeat(auto-fill,minmax(45vw,1fr)), 1fr, 0 rem);
-  @media screen and(max-width:$tablet) {
+  @media screen and(max-width:$desktop) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
   
