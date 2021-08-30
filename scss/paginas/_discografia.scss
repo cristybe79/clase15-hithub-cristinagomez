@@ -7,6 +7,13 @@
   padding: 2rem;
   width: 60vw;
   @include grid (grid,1fr 1fr,1fr,0rem);
+      @media (max-width: $desktop) {
+    margin-left: 20vw;
+    padding-left: 3rem;
+    grid-template-columns: 1fr;
+    grid-gap:1rem;
+    background-color: orange;
+      }
     @media (max-width: $tablet) {
     margin-left: 20vw;
     padding-left: 3rem;
