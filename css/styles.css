@@ -79,7 +79,7 @@ body {
 .indexMayor {
   width: 99vw;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(45vw, 1fr));
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-column-gap: 0 rem; }
   @media screen and (max-width: 1240px) {
@@ -191,7 +191,7 @@ body {
 .contacto {
   border-radius: 10px;
   border: black 1px solid;
-  max-width: 65vh;
+  max-width: 65vw;
   margin-top: 5vh;
   margin-left: 33%;
   background-color: aliceblue;
@@ -203,7 +203,7 @@ body {
     .contacto {
       margin-left: 15%;
       border: blueviolet 1px solid;
-      max-width: 60vh; } }
+      max-width: 50vw; } }
   @media screen and (max-width: 768px) {
     .contacto {
       margin-left: 20%;
@@ -229,8 +229,7 @@ body {
       margin-left: 20vw;
       padding-left: 3rem;
       grid-template-columns: 1fr;
-      grid-gap: 1rem;
-      background-color: orange; } }
+      grid-gap: 1rem; } }
   @media (max-width: 768px) {
     .albums {
       margin-left: 20vw;
@@ -292,8 +291,7 @@ body {
   @media screen and (max-width: 568px) {
     .disco1 {
       font-size: 0.8rem;
-      line-height: 1rem;
-      color: crimson; } }
+      line-height: 1rem; } }
 
 .mainEventos .eventoTitulo {
   margin: 20px 0px 10px 10vw;
