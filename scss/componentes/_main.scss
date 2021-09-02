@@ -9,13 +9,14 @@
 }
 .imagenLogo1 {
   width: 25vw;
-  animation: aparecer 2s infinite;
+  animation: aparecer 10s infinite;
   @keyframes aparecer {
+
     0% {
       opacity: 0;
     }
     100% {
-      opacity: 1;
+      opacity: 0.8;
     }
   }
 }

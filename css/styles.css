@@ -30,13 +30,13 @@ body {
 
 .imagenLogo1 {
   width: 25vw;
-  animation: aparecer 2s infinite; }
+  animation: aparecer 10s infinite; }
 
 @keyframes aparecer {
   0% {
     opacity: 0; }
   100% {
-    opacity: 1; } }
+    opacity: 0.8; } }
 
 .fPage {
   padding-left: 20px;
@@ -361,16 +361,21 @@ body {
     overflow: hidden; }
 
 .galeriaMayor {
+  background: #516d83;
+  background: linear-gradient(176deg, #516d83 32%, #2f3637 100%);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 300px;
   padding: 20px;
-  grid-gap: 5px; }
+  grid-gap: 15px; }
 
 .itemGal {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+  box-shadow: 5px 5px 5px black; }
+  .itemGal:hover {
+    transform: scale(1.02); }
 
 .galhij:nth-child(4) {
   grid-row-start: span 2; }
