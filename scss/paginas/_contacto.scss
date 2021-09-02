@@ -11,17 +11,18 @@
   padding-bottom: 20vh;
 }
 .contacto {
-  border-radius: 10px;
-  border: $colorNueve 2px solid;
-  box-shadow: 10px 10px 10px black;
-  max-width: 33vw;
-  margin-top: 5vh;
-  margin-left: 33%;
-  background-color: aliceblue;
-  display: flex;
-  flex-direction: column;
+  border-radius: 7px;
+  // border: $colorNueve 2px solid;
+  background:rgba(0,0,0,0.5) ;
+  padding: 7px;
+  max-width: 30vw;
+  margin:auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: $colorCuatro;
   justify-content: end;
+  textarea{
+    margin-bottom: 10px;
+  }
     @media screen and(max-width:$desktop) {
     margin-left: 17%;
     max-width: 50vw;

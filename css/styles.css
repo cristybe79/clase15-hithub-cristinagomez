@@ -226,17 +226,16 @@ body {
   padding-bottom: 20vh; }
 
 .contacto {
-  border-radius: 10px;
-  border: #252a2e 2px solid;
-  box-shadow: 10px 10px 10px black;
-  max-width: 33vw;
-  margin-top: 5vh;
-  margin-left: 33%;
-  background-color: aliceblue;
-  display: flex;
-  flex-direction: column;
+  border-radius: 7px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 7px;
+  max-width: 30vw;
+  margin: auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
   justify-content: end; }
+  .contacto textarea {
+    margin-bottom: 10px; }
   @media screen and (max-width: 1240px) {
     .contacto {
       margin-left: 17%;
