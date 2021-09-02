@@ -12,7 +12,6 @@
 }
 .contacto {
   border-radius: 7px;
-  // border: $colorNueve 2px solid;
   background:rgba(0,0,0,0.5) ;
   padding: 7px;
   max-width: 30vw;
@@ -24,17 +23,14 @@
     margin-bottom: 10px;
   }
     @media screen and(max-width:$desktop) {
-    margin-left: 17%;
     max-width: 50vw;
 
   }
   @media screen and(max-width:$tablet) {
-    margin-left: 15%;
     max-width: 50vw;
 
   }
   @media screen and(max-width:$celular) {
-    margin-left: 13%;
     max-width: 50vw;
   }
 }

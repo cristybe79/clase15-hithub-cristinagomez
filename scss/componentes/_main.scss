@@ -9,16 +9,8 @@
 }
 .imagenLogo1 {
   width: 25vw;
-  animation: aparecer 10s infinite;
-  @keyframes aparecer {
+  opacity:0.5 ;
 
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 0.8;
-    }
-  }
 }
 .fPage {
   padding-left: 20px;
@@ -40,12 +32,9 @@
 /* barra de navegacion */
 .gridHeader {
   max-width: 99vw;
-  // @include grid(grid,100%,20% 25%,15px);
 }
 .barraNavegacion {
-  // height: 5vh;
-  // width: 50vw;
-  // @include flex(flex,row,start,center);
+
   & :hover {
     background-color: cadetblue;
     transform: scale(1px);

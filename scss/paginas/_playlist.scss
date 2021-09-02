@@ -5,11 +5,15 @@
   padding: 10px;
   display: flex;
   flex-direction: row;
+
 }
 .playA iframe {
   width: 45vw;
   height: 50vh;
   margin-right: 20px;
+    @media (max-width: $tablet) {
+    width: 35vw;
+  }
 }
 .letraPlaylist {
   padding: 10px;

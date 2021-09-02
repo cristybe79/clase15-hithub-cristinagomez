@@ -9,6 +9,7 @@ $colorOcho:lime;
 $colorNueve:#252a2e;
 $colorDiez:#116280;
 $colorOnce:#157358;
+$colorDoce:rgba(45, 70, 207, 1);
 $desktop:1240px;
 $tablet:768px;
 $celular:568px;
@@ -16,7 +17,7 @@ $textSize:1rem;
 $textSize1:1.1rem;  
 $wt:100vw;
 $singsColor:( 
-    sing1:$colorCuatro,
+    sing1:$colorDoce,
     sing2:$colorSeis,
     sing3:$colorSiete,
     sing4:$colorOcho,

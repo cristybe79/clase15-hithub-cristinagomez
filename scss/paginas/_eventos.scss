@@ -1,6 +1,6 @@
 .mainEventos {
   .eventoTitulo {
-    margin: 20px 0px 10px 10vw;
+    margin: auto;
     padding-left: 30px;
     @include grid(grid, 1fr, 1fr, 0rem);
     background: rgb(81, 109, 131);
@@ -14,7 +14,7 @@
     color: rgba(100, 149, 237, 1);
   }
   .eventosMayor {
-    margin: 10px 0px 10px 10vw;
+    margin: auto;
     margin-top: 3vh;
     max-width: 65vw;
     @include grid(grid, 1fr 1fr 1fr, 1fr, 0rem);
