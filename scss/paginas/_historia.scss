@@ -1,4 +1,5 @@
 .historiaDeLaBanda {
+  // estilo del texto
   margin: 5vh;
   padding-left: 10vh;
   padding-right: 10vh;
@@ -8,28 +9,27 @@
   @include style($colorDos, $textSize, 300);
   line-height: 1.3rem;
   overflow: hidden;
+  // estilo de las imagenes
   .imgHis {
     width: 40vw;
     float: left;
+    margin: 10px;
   }
   .imgHis1 {
     margin: 5px;
-    width: 30vw;
+    width: 10vw;
     float: right;
   }
   @media screen and(max-width:$desktop) {
-    margin: 3vh;
-    padding-left: 7vh;
-    padding-right: 7vh;
+    margin:auto;
+    font-size: $textsixe1;
   }
   @media screen and(max-width:$tablet) {
-    margin: 2vh;
-    padding-left: 5vh;
-    padding-right: 5vh;
+    margin:auto;
+    font-size: $textsixe1;
   }
   @media screen and(max-width:$celular) {
-    margin: 1vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
+    margin:auto;
+    font-size: $textsixe1;
   }
 }

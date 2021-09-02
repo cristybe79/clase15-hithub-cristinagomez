@@ -363,6 +363,8 @@ body {
   background: linear-gradient(176deg, #516d83 32%, #2f3637 100%);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto(300px);
+  grid-column-gap: 15px;
   grid-auto-rows: 300px;
   padding: 20px;
   grid-gap: 15px; }

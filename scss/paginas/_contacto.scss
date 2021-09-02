@@ -1,6 +1,6 @@
+// imagen de fondo
 .paginaContacto {
   max-height: 100vh;
-
   background-image: linear-gradient(
       to bottom,
       rgba(245, 246, 252, 0.52),
@@ -10,25 +10,24 @@
   background-size: cover;
   padding-bottom: 20vh;
 }
+// formulario contacto estilo propio
 .contacto {
   border-radius: 7px;
-  background:rgba(0,0,0,0.5) ;
+  background: rgba(0, 0, 0, 0.5);
   padding: 7px;
   max-width: 30vw;
-  margin:auto;
+  margin: auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: $colorCuatro;
   justify-content: end;
-  textarea{
+  textarea {
     margin-bottom: 10px;
   }
-    @media screen and(max-width:$desktop) {
+  @media screen and(max-width:$desktop) {
     max-width: 50vw;
-
   }
   @media screen and(max-width:$tablet) {
     max-width: 50vw;
-
   }
   @media screen and(max-width:$celular) {
     max-width: 50vw;
