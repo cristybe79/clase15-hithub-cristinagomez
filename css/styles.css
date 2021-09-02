@@ -92,7 +92,7 @@ body {
     .indexMayor .indexCaja .sing--sing2 {
       color: cornflowerblue; }
     .indexMayor .indexCaja .sing--sing3 {
-      color: #7a88b8; }
+      color: #9baada; }
     .indexMayor .indexCaja .sing--sing4 {
       color: lime; }
     .indexMayor .indexCaja .sing--sing5 {
@@ -128,6 +128,9 @@ body {
     height: 20vh;
     font-family: "Noto Sans", sans-serif;
     font-style: italic; }
+    @media screen and (max-width: 1240px) {
+      .texto1 .letra {
+        font-size: 2rem; } }
   .texto1 .tema1 {
     top: 0.5rem;
     transition-duration: 5s;
@@ -147,7 +150,8 @@ body {
     color: #116280;
     animation: traslaizq 10s;
     position: relative;
-    left: 100px; }
+    left: 100px;
+    transition-duration: 5s; }
 
 @keyframes traslaizq {
   0% {
@@ -156,8 +160,10 @@ body {
   100% {
     left: 100px;
     top: 0px; } }
+    .texto1 .tema3:hover {
+      transform: rotate(5deg); }
   .texto1 .tema4 {
-    color: #5F9EA0;
+    color: #64edbf;
     animation: traslader 10s;
     position: relative;
     font-family: 'Hind Siliguri', sans-serif;
@@ -169,8 +175,10 @@ body {
     right: -500px; }
   100% {
     right: 300px; } }
+    .texto1 .tema4:hover {
+      transform: scale(1.05); }
   .texto1 .tema5 {
-    color: #157358;
+    color: #219977;
     animation: dearriba 10s;
     position: relative;
     right: -300px;
@@ -186,6 +194,8 @@ body {
   100% {
     right: -300px;
     top: -50px; } }
+    .texto1 .tema5:hover {
+      transform: scale(1.1); }
 
 .gridError {
   width: 99vw;
