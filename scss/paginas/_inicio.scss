@@ -61,7 +61,6 @@
     }
   }
   .tema1 {
-    border-radius: 15px;
     top: 0.5rem;
     transition-duration: 5s;
     transform: rotate(-5deg);
@@ -81,6 +80,39 @@
       transform: rotate(0deg);
     }
   }
+.tema3{
+  color:$colorDiez;
+  animation: traslaizq 10s;
+  position: relative;
+  left: 100px;
+  @keyframes traslaizq {
+  0%   { left:-300px; top:0px;}
+  100%  {left:100px; top:0px;} 
+  }
+}
+.tema4{
+  color:$colorUno;
+  animation: traslader 10s;
+  position: relative;
+  right: 300px;
+  @keyframes traslader {
+  0%   { right:-500px;}
+  100%  {right:300px;} 
+  }
+}
+.tema5{
+  color:$colorOnce;
+  animation: dearriba 10s;
+  position: relative;
+  right: -300px;
+  top:-50px;
+  @keyframes dearriba {
+  0%   { right:-300px; top:-50px;}
+  50%  {right:200px; top:0px;}
+  100% { right:-300px; top:-50px;}
+  }
+}
+
 }
 
 .gridError {

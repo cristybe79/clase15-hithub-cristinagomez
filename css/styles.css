@@ -17,9 +17,6 @@ body {
   flex-direction: column;
   justify-content: initial;
   text-align: start; }
-  @media screen and (max-width: 1240px) {
-    body {
-      background-color: black; } }
 
 /* logo */
 .logo {
@@ -101,7 +98,7 @@ body {
     .indexMayor .indexCaja .sing--sing2 {
       color: cornflowerblue; }
     .indexMayor .indexCaja .sing--sing3 {
-      color: violet; }
+      color: #7a88b8; }
     .indexMayor .indexCaja .sing--sing4 {
       color: lime; }
     .indexMayor .indexCaja .sing--sing5 {
@@ -142,7 +139,6 @@ body {
         font-size: 0.8rem;
         line-height: 1rem; } }
   .texto1 .tema1 {
-    border-radius: 15px;
     top: 0.5rem;
     transition-duration: 5s;
     transform: rotate(-5deg);
@@ -158,6 +154,47 @@ body {
     transform: rotate(5deg); }
     .texto1 .tema2:hover {
       transform: rotate(0deg); }
+  .texto1 .tema3 {
+    color: #116280;
+    animation: traslaizq 10s;
+    position: relative;
+    left: 100px; }
+
+@keyframes traslaizq {
+  0% {
+    left: -300px;
+    top: 0px; }
+  100% {
+    left: 100px;
+    top: 0px; } }
+  .texto1 .tema4 {
+    color: #5F9EA0;
+    animation: traslader 10s;
+    position: relative;
+    right: 300px; }
+
+@keyframes traslader {
+  0% {
+    right: -500px; }
+  100% {
+    right: 300px; } }
+  .texto1 .tema5 {
+    color: #157358;
+    animation: dearriba 10s;
+    position: relative;
+    right: -300px;
+    top: -50px; }
+
+@keyframes dearriba {
+  0% {
+    right: -300px;
+    top: -50px; }
+  50% {
+    right: 200px;
+    top: 0px; }
+  100% {
+    right: -300px;
+    top: -50px; } }
 
 .gridError {
   width: 99vw;
@@ -190,8 +227,9 @@ body {
 
 .contacto {
   border-radius: 10px;
-  border: black 1px solid;
-  max-width: 65vw;
+  border: #252a2e 2px solid;
+  box-shadow: 10px 10px 10px black;
+  max-width: 33vw;
   margin-top: 5vh;
   margin-left: 33%;
   background-color: aliceblue;
@@ -201,17 +239,16 @@ body {
   justify-content: end; }
   @media screen and (max-width: 1240px) {
     .contacto {
-      margin-left: 15%;
-      border: blueviolet 1px solid;
+      margin-left: 17%;
       max-width: 50vw; } }
   @media screen and (max-width: 768px) {
     .contacto {
-      margin-left: 20%;
-      border: orangered 1px solid; } }
+      margin-left: 15%;
+      max-width: 50vw; } }
   @media screen and (max-width: 568px) {
     .contacto {
-      margin-left: 18%;
-      border: greenyellow 1px solid; } }
+      margin-left: 13%;
+      max-width: 50vw; } }
 
 .discografia {
   flex-wrap: wrap; }

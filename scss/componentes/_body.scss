@@ -10,16 +10,5 @@ body {
 
   background-color: rgb(19, 18, 18);
   @include flex(flex, column, initial, start);
-  @media screen and(max-width:$desktop) {
-    background-color: $colorTres;
-  }
-  @media screen and(max-width:$tablet) {
-    // background-color: $colorSeis;
-  }
-  @media (max-width: $celular) {
-    // background-color: greenyellow;
-  }
-  @media (max-width: 350px) {
-    // background-color: $colorSeis;
-  }
+
 }
