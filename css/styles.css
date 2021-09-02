@@ -415,27 +415,25 @@ body {
   line-height: 1.3rem;
   overflow: hidden; }
   .historiaDeLaBanda .imgHis {
+    padding: 10px;
     width: 40vw;
     float: left; }
   .historiaDeLaBanda .imgHis1 {
     margin: 5px;
-    width: 30vw;
+    width: 20vw;
     float: right; }
   @media screen and (max-width: 1240px) {
     .historiaDeLaBanda {
-      margin: 3vh;
-      padding-left: 7vh;
-      padding-right: 7vh; } }
+      margin: auto;
+      font-size: 1.1rem; } }
   @media screen and (max-width: 768px) {
     .historiaDeLaBanda {
-      margin: 2vh;
-      padding-left: 5vh;
-      padding-right: 5vh; } }
+      margin: auto;
+      font-size: 1.1rem; } }
   @media screen and (max-width: 568px) {
     .historiaDeLaBanda {
-      margin: 1vh;
-      padding-left: 3vh;
-      padding-right: 3vh; } }
+      margin: auto;
+      font-size: 1.1rem; } }
 
 .play1 {
   height: auto;
