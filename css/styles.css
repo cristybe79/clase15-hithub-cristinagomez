@@ -432,6 +432,10 @@ body {
   padding: 10px;
   display: flex;
   flex-direction: row; }
+  @media (max-width: 768px) {
+    .play1 {
+      padding: 12px;
+      height: 50vw; } }
 
 .playA iframe {
   width: 45vw;
@@ -439,7 +443,7 @@ body {
   margin-right: 20px; }
   @media (max-width: 768px) {
     .playA iframe {
-      width: 35vw; } }
+      height: 40vw; } }
 
 .letraPlaylist {
   padding: 10px;
