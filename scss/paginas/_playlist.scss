@@ -1,26 +1,22 @@
 .play1 {
-  width: 98vw;
-  height: 60vh;
-  margin: 2px 2px 2px 2px;
+  // width: 98vw;
+  height: auto;
+  // margin: 2px 2px 2px 2px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows: 300px;
   padding: 10px;
-  display: flex;
-  flex-direction: row;
-    @media (max-width: $tablet) {
-    padding: 12px;
-    height: 50vw;
-  }
+  grid-gap: 15px;
+  //   @media (max-width: $tablet) {
+  //   padding: 12px;
+  //   height: 50vw;
+  // }
 }
 .playA iframe {
-  width: 45vw;
-  height: 50vh;
-  margin-right: 20px;
-    @media (max-width: $tablet) {
-    height: 40vw
-  }
+  width: 100%;
+  height: 100%;
+  //   @media (max-width: $tablet) {
+  //   height: 40vw
+  // }
 }
-.letraPlaylist {
-  padding: 10px;
-  line-height: 1.3rem;
-  color: aliceblue;
-  font-family: "Noto Sans", sans-serif;
-}
+
