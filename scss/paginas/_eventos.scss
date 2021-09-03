@@ -19,8 +19,9 @@
   .eventosMayor {
     margin: auto;
     margin-top: 3vh;
+    margin-bottom: 1.5vh;
     max-width: 65vw;
-    @include grid(grid, 1fr 1fr 1fr, 1fr, 0rem);
+    @include grid(grid, 1fr 1fr 1fr, 1fr, 1rem);
     background: linear-gradient(
       90deg,
       rgba(85, 193, 196, 1) 0%,
