@@ -9,32 +9,29 @@
 }
 .imagenLogo1 {
   width: 25vw;
-  opacity:0.5 ;
-
+  opacity: 0.5;
 }
+// titulos de las paginas
 .fPage {
   padding-left: 20px;
   color: $colorDos;
   background-color: $colorNueve;
 }
-.fijoIndex {
+// fondo de logo
+.fijo {
   width: 99vw;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0.945),
-      rgba(19, 18, 18, 0.205)
-    ),
-    url("../img/irlanda.jpg");
-
+  @include grid(grid, 100%, 19% 15%, 15px);
+  background-image: url("../img/irlanda.jpg");
   background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
 }
+
 /* barra de navegacion */
 .gridHeader {
   max-width: 99vw;
 }
 .barraNavegacion {
-
   & :hover {
     background-color: $colorUno;
     transform: scale(1px);
@@ -44,12 +41,4 @@
     background-color: black;
     text-shadow: 2px 2px 5px $colorUno;
   }
-}
-.fijo {
-  width: 99vw;
-  @include grid(grid, 100%, 19% 15%, 15px);
-  background-image: url("../img/irlanda.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
 }

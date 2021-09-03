@@ -1,34 +1,35 @@
 .discografia {
   flex-wrap: wrap;
 }
-.albums{
+// grid con listado de albumes
+.albums {
   margin-left: 10vw;
   padding: 2rem;
   width: 60vw;
-  @include grid (grid,1fr 1fr,1fr,0rem);
-      @media (max-width: $desktop) {
+  @include grid(grid, 1fr 1fr, 1fr, 0rem);
+  @media (max-width: $desktop) {
     margin-left: 20vw;
     padding-left: 3rem;
     grid-template-columns: 1fr;
-    grid-gap:1rem;
-      }
-    @media (max-width: $tablet) {
+    grid-gap: 1rem;
+  }
+  @media (max-width: $tablet) {
     margin-left: 20vw;
     padding-left: 3rem;
     grid-template-columns: 1fr;
-    grid-gap:1rem;
+    grid-gap: 1rem;
     background-color: $colorTres;
-      }
-    @media (max-width: $celular) {
+  }
+  @media (max-width: $celular) {
     margin-left: 25vw;
     padding-left: 3rem;
     grid-template-columns: 1fr;
-    grid-gap:1rem;
+    grid-gap: 1rem;
   }
-
-    @media (max-width: $celular) {
+  @media (max-width: $celular) {
     grid-template-columns: 1fr;
   }
+  // foto portada de los albumes
   .fotoAlbums {
     background-color: $colorTres;
     box-shadow: 10px 10px 10px grey;
@@ -51,25 +52,24 @@
     }
   }
 }
+// titulo y lista de temas
 .disco {
   height: auto;
   padding-left: 0px;
   @include flex(flex, column, flex-start, flex-start);
   flex-wrap: wrap;
   overflow: hidden;
-    @media (max-width: $desktop) {
+  @media (max-width: $desktop) {
     flex-direction: rows;
     padding-left: 10px;
   }
   @media (max-width: $tablet) {
     margin-left: 5px;
-
   }
-    @media (max-width: $celular) {
+  @media (max-width: $celular) {
     margin-left: 5px;
   }
 }
-
 .disco1 {
   color: $colorUno;
   font-family: "Noto Sans", sans-serif;

@@ -11,7 +11,7 @@
   overflow: hidden;
   // estilo de las imagenes
   .imgHis {
-    padding:10px;
+    padding: 10px;
     width: 40vw;
     float: left;
   }
@@ -21,15 +21,15 @@
     float: right;
   }
   @media screen and(max-width:$desktop) {
-    margin:auto;
+    margin: auto;
     font-size: $textSize1;
   }
   @media screen and(max-width:$tablet) {
-    margin:auto;
+    margin: auto;
     font-size: $textSize1;
   }
   @media screen and(max-width:$celular) {
-    margin:auto;
+    margin: auto;
     font-size: $textSize1;
   }
 }

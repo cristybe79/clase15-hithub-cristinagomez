@@ -5,12 +5,11 @@
   @media screen and(max-width:$desktop) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-  
   }
-    @media screen and(max-width:$tablet) {
+  @media screen and(max-width:$tablet) {
     grid-column: 1fr;
     grid-row: 2fr;
-      }
+  }
   // separacion entre imagen y cuadro texto
   .indexCaja {
     @include flex(flex, column, center, center);
@@ -20,7 +19,6 @@
         color: $color;
       }
     }
-
   }
 }
 // imagen derecha
@@ -60,16 +58,16 @@
     font-family: "Noto Sans", sans-serif;
     font-style: italic;
     @extend %fontUno;
-      @media screen and(max-width:$desktop){
-        font-size: 2rem;
-      }
+    @media screen and(max-width:$desktop) {
+      font-size: 2rem;
+    }
   }
   .tema1 {
     top: 0.5rem;
     transition-duration: 5s;
     transform: rotate(-5deg);
     text-align: left;
-    font-style:bold;
+    font-style: bold;
     &:hover {
       transform: rotate(0deg);
     }
@@ -83,51 +81,69 @@
       transform: rotate(0deg);
     }
   }
-.tema3{
-  color:$colorDiez;
-  animation: traslaizq 10s;
-  position: relative;
-  left: 100px;
-  @keyframes traslaizq {
-  0%   { left:-300px; top:0px;}
-  100%  {left:100px; top:0px;} 
-  }
-      transition-duration: 5s;
-  &:hover {
+  .tema3 {
+    color: $colorDiez;
+    animation: traslaizq 10s;
+    position: relative;
+    left: 100px;
+    @keyframes traslaizq {
+      0% {
+        left: -300px;
+        top: 0px;
+      }
+      100% {
+        left: 100px;
+        top: 0px;
+      }
+    }
+    transition-duration: 5s;
+    &:hover {
       transform: rotate(5deg);
     }
-}
-.tema4{
-  color:$colorTrece;
-  animation: traslader 10s;
-  position: relative;
-  font-family: 'Hind Siliguri', sans-serif;
-  font-family: 'Lobster', cursive;;
-  right: 300px;
-  @keyframes traslader {
-  0%   { right:-500px;}
-  100%  {right:300px;} 
   }
-  &:hover {
-  transform: scale(1.05);
+  .tema4 {
+    color: $colorTrece;
+    animation: traslader 10s;
+    position: relative;
+    font-family: "Hind Siliguri", sans-serif;
+    font-family: "Lobster", cursive;
+    right: 300px;
+    @keyframes traslader {
+      0% {
+        right: -500px;
+      }
+      100% {
+        right: 300px;
+      }
     }
-}
-.tema5{
-  color:$colorOnce;
-  animation: dearriba 10s;
-  position: relative;
-  right: -300px;
-  top:-50px;
-  @keyframes dearriba {
-  0%   { right:-300px; top:-50px;}
-  50%  {right:200px; top:0px;}
-  100% { right:-300px; top:-50px;}
-  }
     &:hover {
-  transform: scale(1.1);
+      transform: scale(1.05);
     }
-}
-
+  }
+  .tema5 {
+    color: $colorOnce;
+    animation: dearriba 10s;
+    position: relative;
+    right: -300px;
+    top: -50px;
+    @keyframes dearriba {
+      0% {
+        right: -300px;
+        top: -50px;
+      }
+      50% {
+        right: 200px;
+        top: 0px;
+      }
+      100% {
+        right: -300px;
+        top: -50px;
+      }
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
 }
 // agrego grid de pagina error
 .gridError {
