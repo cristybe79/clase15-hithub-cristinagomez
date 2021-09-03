@@ -48,7 +48,7 @@ body {
   max-width: 99vw; }
 
 .barraNavegacion :hover {
-  background-color: cadetblue;
+  background-color: #5F9EA0;
   transform: scale(1px); }
 
 .barraNavegacion .navDes1 {
