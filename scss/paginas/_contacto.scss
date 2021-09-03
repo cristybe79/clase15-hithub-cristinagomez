@@ -14,11 +14,12 @@
 .contacto {
   border-radius: 7px;
   background: rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 5px $colorTres;
   padding: 7px;
   max-width: 30vw;
   margin: auto;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: $colorCuatro;
+  margin-top: 2rem;
+  @extend %fontUno;
   justify-content: end;
   textarea {
   margin-bottom: 10px;

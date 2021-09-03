@@ -3,6 +3,7 @@
   // titulo principal
   .eventoTitulo {
     margin: auto;
+    margin-top: 1rem;
     padding-left: 30px;
     @include grid(grid, 1fr, 1fr, 0rem);
     background: rgb(81, 109, 131);

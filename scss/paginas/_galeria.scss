@@ -1,10 +1,9 @@
 // galeria en grid
 .galeriaMayor {
-  background: rgb(81, 109, 131);
   background: linear-gradient(
-    176deg,
-    rgba(81, 109, 131, 1) 32%,
-    rgba(47, 54, 55, 1) 100%
+    150deg,
+    $colorQuince 0%,
+    $colorCatorce 100%
   );
   @include grid(grid, repeat(4, 1fr), auto(300px), 15px);
   grid-auto-rows: 300px;

@@ -3,6 +3,7 @@
 }
 // grid con listado de albumes
 .albums {
+  background-color: $colorTres;
   margin-left: 10vw;
   padding: 2rem;
   width: 60vw;
@@ -18,7 +19,7 @@
     padding-left: 3rem;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
-    background-color: $colorTres;
+    ;
   }
   @media (max-width: $celular) {
     margin-left: 25vw;
@@ -31,11 +32,9 @@
   }
   // foto portada de los albumes
   .fotoAlbums {
-    background-color: $colorTres;
-    box-shadow: 10px 10px 10px grey;
+    box-shadow: 10px 10px 10px $colorDos;
     border-radius: 5px;
     width: 400px;
-    color: aquamarine;
     .fotoAlbums img {
       @media (max-width: $desktop) {
         padding: 10px;
@@ -54,8 +53,10 @@
 }
 // titulo y lista de temas
 .disco {
+  border-left: dotted 2px $colorUno;
   height: auto;
-  padding-left: 0px;
+  padding-left: 1rem;
+
   @include flex(flex, column, flex-start, flex-start);
   flex-wrap: wrap;
   overflow: hidden;
@@ -73,9 +74,11 @@
 .disco1 {
   color: $colorUno;
   font-family: "Noto Sans", sans-serif;
+
   @media screen and(max-width: $celular) {
     font-size: $textSize - 0.2;
     line-height: 1rem;
+    
   }
 }
 .listaMusica {
